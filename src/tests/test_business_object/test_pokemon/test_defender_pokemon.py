@@ -8,7 +8,7 @@ class TestDefenderPokemon:
         # snorlax = DefenderPokemon(stat_current=Statistic(attack=100, defense=100))
         stat_current = Statistic(attack=100, defense=100)
         stat_max = Statistic()
-        snorlax = DefenderPokemon(stat_max, stat_current, level=1, name="Snorlax", type_pk="Normal")
+        snorlax = DefenderPokemon(stat_max, stat_current, level=1, name="Snorlax")
 
         # WHEN
         multiplier = snorlax.get_pokemon_attack_coef()

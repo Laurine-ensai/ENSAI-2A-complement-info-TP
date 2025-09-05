@@ -8,7 +8,7 @@ class PokemonAbstractPokemon(ABC):
     """
     """
 
-    def __init__(self, stat_max, stat_current, level, name, type_pk):
+    def __init__(self, stat_max=None, stat_current=None, level=0, name=None, type_pk=None):
         self._stat_max: Statistic = stat_max
         self._stat_current: Statistic = stat_current
         self._level: int = level

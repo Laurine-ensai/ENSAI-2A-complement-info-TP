@@ -8,7 +8,7 @@ class TestAttackerPokemon:
         stat_current = Statistic(attack=100, speed=100)
         stat_max = Statistic()
         pikachu = AttackerPokemon(
-            stat_max, stat_current, level=1, name="Pikachu", type_pk="Electric")
+            stat_max, stat_current, level=1, name="Pikachu", type_pk="Attacker")
 
         # WHEN
         multiplier = pikachu.get_pokemon_attack_coef()
